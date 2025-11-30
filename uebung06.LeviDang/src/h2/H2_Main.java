@@ -14,12 +14,8 @@ public class H2_Main {
 		System.out.println(compareArrays(a,b));
 		System.out.println(compareArrays(b,a));
 		System.out.println(compareArrays(e,a));
-		
 	}
-		 
-		
-	
-	public static boolean compareArrays (int []a, int []b) {
+		 public static boolean compareArrays (int []a, int []b) {
 		
 		if ( a.length != b.length ) {
 			return false;
@@ -28,11 +24,9 @@ public class H2_Main {
 		for (int i=0; i< a.length; i++) {
 			if (a[i] != b[i] ) {
 				return false;
-			}
-			
+			}	
 		}
 		return true;
-	
 	}
 }
 
